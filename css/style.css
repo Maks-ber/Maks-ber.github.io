@@ -189,13 +189,13 @@ h2 {
 
 @media  (max-width:1000px) {
     .img__last {
-    margin-right: 70px;
+    margin-right: 80px;
     }
 }
 
 @media  (max-width:700px) {
     .img__last:last-child {
-    margin-right: 90px;
+    margin-right: 80px;
     }
 }
 @media  (max-width:700px) {
