@@ -1,0 +1,17 @@
+body,html {
+    margin: 0;
+    padding: 15px;
+    min-width: 1000px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 965px;
+    margin: 0 auto;
+}
+
+.wrapper h1 {
+    text-align: center;
+    
+}

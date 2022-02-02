@@ -6,6 +6,8 @@ body,html {
     box-sizing: border-box;
 }
 
+
+
 body {
     padding: 15px;
 }
@@ -36,6 +38,7 @@ h2 {
     text-decoration: none;
     font-weight: bold;
 }
+
 @media (max-width:800px) {
     .menu__link {
         margin-right: 110px;
@@ -78,6 +81,15 @@ h2 {
 
 .background__img {
     margin-top: 50px;
+}
+
+.background__img h2 {
+    color: white;
+    text-decoration: none;
+}
+
+.background__img a {
+    text-decoration: none;
 }
 
 .background__img img {
