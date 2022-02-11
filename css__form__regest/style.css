@@ -1,0 +1,130 @@
+body , html {
+    background-color: rgb(137 83 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.auth {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 160px;
+}
+
+@media (max-width:424px) {
+    .auth {
+      margin-top: 60px;
+    } 
+}
+
+h1 {
+    font-size: 20px;
+    color: rgb(214, 55, 55);
+}
+
+.form  {
+    padding: 5px;
+    background-color: white;
+}
+
+@media (max-width:424px) {
+    .form {
+      margin: 20px 20px 20px;
+    } 
+}
+
+
+
+.form_regest {
+    margin: 0 auto;
+    display: block;
+
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+input{
+    outline-offset: 0;
+    outline: 0;
+}
+
+input:focus {
+    outline: 0;
+    border-color: rgba(43, 20, 218, 0.397);
+}
+
+input:hover {
+    outline: 0;
+}
+
+select {
+    width: 260px;
+    height: 34px;
+    margin: 0 auto;
+    display: block;
+}
+
+select:hover {
+    outline: 0;
+}
+select:focus {
+    outline: 0;
+    border-color: rgba(43, 20, 218, 0.397);
+}
+
+.name__input {
+    width: 260px;
+    height: 34px;
+    margin-bottom: 25px;
+}
+
+.email__input {
+    width: 260px;
+    height: 34px;
+    margin-bottom: 25px;
+}
+
+.tel__input {
+    width: 260px;
+    height: 34px;
+    margin-bottom: 25px;
+}
+
+.pass__input {
+    width: 260px;
+    height: 34px;
+    margin-bottom: 25px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.submit__inputt {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.submit__input {
+    border: 0;
+    outline: 0;
+    margin: 0 auto;
+    width: 260px;
+    height: 34px;
+    background-color: rgb(11 177 11);
+    color: white;
+    align-items: center;
+    display: block;
+}
+
+.submit__input:focus {
+    background-color: rgb(53 129 53);
+}
+
+.submit__input:hover {
+    background-color: rgb(10 163 10);
+    outline: o;
+    cursor: pointer;
+}
