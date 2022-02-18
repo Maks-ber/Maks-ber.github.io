@@ -36,6 +36,7 @@ h2 {
 .wrapper {
     max-width: 965px;
 	margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .header__menu {
@@ -354,7 +355,8 @@ h2 {
         width: 166px;
         height: 206px;
         left: 28%;
-        margin-top: 81px;    
+        margin-top: 81px;   
+        margin-right: 0px;
     }
 }
 @media (max-width:375px) {
@@ -364,7 +366,8 @@ h2 {
         width: 166px;
         height: 206px;
         left: 28%;
-        margin-top: 81px;   
+        margin-top: 81px;
+        margin-right: 0px;  
     }
 }
 @media (max-width:375px) {
@@ -374,7 +377,8 @@ h2 {
         width: 166px;
         height: 206px;
         left: 28%;
-        margin-top: 81px;    
+        margin-top: 81px; 
+        margin-right: 0px;   
     }
 }
 
@@ -385,7 +389,8 @@ h2 {
         width: 166px;
         height: 206px;
         left: 28%;
-        margin-top: 81px;    
+        margin-top: 81px;
+        margin-right: 0px; 
     }
 }
 
@@ -444,7 +449,7 @@ h2 {
     .portfolio{
         text-align: center;
         margin: 0 auto;
-        width: 375px;
+        width: 374px;
         height: 1200px;
     }
 }
@@ -599,6 +604,7 @@ h2 {
     line-height: 42px;
     text-align: center;
     color: #070707;
+    margin-right: 0;
 }
 
 
