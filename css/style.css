@@ -33,6 +33,16 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .back__fon__375px {
+        position: absolute;
+        left: 49px;
+        top: 242px;
+        width: 316.5px;
+        height: 478px;
+    }
+}
+
 .wrapper {
     max-width: 965px;
 	margin: 0 auto;
@@ -45,6 +55,12 @@ h2 {
 }
 
 @media (max-width:375px) {
+    .header__menu {
+        display: none;
+    }
+}
+
+@media (max-width:412px) {
     .header__menu {
         display: none;
     }
@@ -73,6 +89,12 @@ h2 {
 }
 
 @media (max-width:375px) {
+    .vector {
+        display: none;
+    }
+}
+
+@media (max-width:412px) {
     .vector {
         display: none;
     }
@@ -113,6 +135,17 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .country{
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 28px;
+    margin-top: 23px;
+    color: #090909;
+
+    }
+}
+
 .name {
     display: inline-block;
     width: 50px;
@@ -123,6 +156,15 @@ h2 {
 }
 
 @media (max-width:375px) {
+    .name{
+    font-size: 47px;
+    line-height: 58px;
+    padding-left: 26px;
+    color: #000000;
+    }
+}
+
+@media (max-width:412px) {
     .name{
     font-size: 47px;
     line-height: 58px;
@@ -156,6 +198,12 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .background__img img {
+        width: 0;
+    }
+}
+
 /*-------------------------------ABOUT ME ------------------*/
 
 .about__me {
@@ -167,6 +215,12 @@ h2 {
 @media (max-width:375px) {
     .about__m{
         max-width: 375px;;
+    }
+}
+
+@media (max-width:412px) {
+    .about__m{
+        max-width: 412px;;
     }
 }
 
@@ -188,6 +242,15 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .about-text{
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        color: #000000;
+    }
+}
+
 
 .text-1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -203,6 +266,18 @@ h2 {
         line-height: 22px;
         text-align: center;
         margin-bottom: 49px;
+        color: #000000;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:412px) {
+    .text-1{
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 28px;
         color: #000000;
         padding-right: 10px;
         padding-left: 10px;
@@ -229,6 +304,18 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .text-1{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 49px;
+        color: #000000;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
 .text-3 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
@@ -245,6 +332,18 @@ h2 {
     color: #000000;
     padding-right: 10px;
     padding-left: 10px;
+    }
+}
+
+@media (max-width:412px) {
+    .text-1{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 49px;
+        color: #000000;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }
 
@@ -359,7 +458,31 @@ h2 {
         margin-right: 0px;
     }
 }
+
+@media (max-width:412px) {
+    .img__last-1 {
+        display: block;
+        position: relative;
+        width: 166px;
+        height: 206px;
+        left: 28%;
+        margin-top: 81px;   
+        margin-right: 0px;
+    }
+}
 @media (max-width:375px) {
+    .img__last-2 {
+        display: block;
+        position: relative;
+        width: 166px;
+        height: 206px;
+        left: 28%;
+        margin-top: 81px;
+        margin-right: 0px;  
+    }
+}
+
+@media (max-width:412px) {
     .img__last-2 {
         display: block;
         position: relative;
@@ -382,7 +505,31 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .img__last-3 {
+        display: block;
+        position: relative;
+        width: 166px;
+        height: 206px;
+        left: 28%;
+        margin-top: 81px; 
+        margin-right: 0px;   
+    }
+}
+
 @media (max-width:375px) {
+    .img__last-4 {
+        display: block;
+        position: relative;
+        width: 166px;
+        height: 206px;
+        left: 28%;
+        margin-top: 81px;
+        margin-right: 0px; 
+    }
+}
+
+@media (max-width:412px) {
     .img__last-4 {
         display: block;
         position: relative;
@@ -454,6 +601,15 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .portfolio{
+        text-align: center;
+        margin: 0 auto;
+        width: 412px;
+        height: 1200px;
+    }
+}
+
 .portfolio__text {
     margin-bottom: 50px;
     padding-top: 112px;
@@ -464,6 +620,14 @@ h2 {
 }
 
 @media (max-width:375px) {
+    .portfolio__text{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    }
+}
+
+@media (max-width:412px) {
     .portfolio__text{
     font-size: 34px;
     line-height: 42px;
@@ -492,6 +656,13 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .window-1 img{
+        width: 360px;
+        height: 206px;
+    }
+}
+
 @media (max-width:375px) {
     .window-1{
         text-align: center;
@@ -500,6 +671,17 @@ h2 {
 }
 
 @media (max-width:375px) {
+    .window-1 h2{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+
+    }
+}
+
+@media (max-width:412px) {
     .window-1 h2{
     font-size: 18px;
     line-height: 22px;
@@ -541,6 +723,14 @@ h2 {
     }
 }
 
+
+@media (max-width:412px) {
+    .window-2 img{
+        width: 360px;
+        height: 206px;
+    }
+}
+
 @media (max-width:375px) {
     .window-2{
         text-align: center;
@@ -549,6 +739,17 @@ h2 {
 }
 
 @media (max-width:375px) {
+    .window-2 h2{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+
+    }
+}
+
+@media (max-width:412px) {
     .window-2 h2{
     font-size: 18px;
     line-height: 22px;
@@ -570,6 +771,13 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .window-3 img{
+        width: 360px;
+        height: 206px;
+    }
+}
+
 @media (max-width:375px) {
     .window-3{
         text-align: center;
@@ -578,6 +786,18 @@ h2 {
 }
 
 @media (max-width:375px) {
+    .window-3 h2{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-bottom: 500px;
+
+    }
+}
+
+@media (max-width:412px) {
     .window-3 h2{
     font-size: 18px;
     line-height: 22px;
@@ -640,6 +860,16 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .footer__item{
+        font-size: 17px;
+        font-weight: 600;
+        left: 46px;
+        line-height: 22px;
+        color: #090909;
+    }
+}
+
 .button__footer {
     padding-top: 30px;
     text-align: center;
@@ -656,6 +886,18 @@ h2 {
 }
 
 @media (max-width:375px) {
+    .span_footer{
+        width: 316px;
+        height: 42px;
+        padding: 4px 85px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width:412px) {
     .span_footer{
         width: 316px;
         height: 42px;
@@ -683,10 +925,27 @@ h2 {
     }
 }
 
+@media (max-width:412px) {
+    .img__inst{
+        padding-top: 50px;
+        width: 293px;
+        height: 35px;
+    }
+}
+
+
 .text_footer {
     padding-top: 45px;
     text-align: center;
     
+}
+
+@media (max-width:412px) {
+    .text_footer{
+        font-size: 13px;
+        padding-top: 45px;
+        text-align: center;
+    }
 }
 
 .text_footer h2 {
