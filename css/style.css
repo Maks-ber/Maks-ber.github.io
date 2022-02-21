@@ -15,6 +15,10 @@ h2 {
     padding: 0;
 }
 
+.page {
+    overflow-x: hidden;
+}
+
 .back__fon__375px {
     position: absolute;
     left: 29px;
@@ -36,7 +40,7 @@ h2 {
 @media (max-width:412px) {
     .back__fon__375px {
         position: absolute;
-        left: 49px;
+        left: 25px;
         top: 242px;
         width: 316.5px;
         height: 478px;
@@ -718,6 +722,7 @@ h2 {
 
 @media (max-width:375px) {
     .window-2 img{
+       
         width: 316px;
         height: 171px;
     }
@@ -726,6 +731,7 @@ h2 {
 
 @media (max-width:412px) {
     .window-2 img{
+        
         width: 360px;
         height: 206px;
     }
@@ -864,7 +870,7 @@ h2 {
     .footer__item{
         font-size: 17px;
         font-weight: 600;
-        left: 46px;
+        left: 20px;
         line-height: 22px;
         color: #090909;
     }
