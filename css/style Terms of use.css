@@ -1,0 +1,15 @@
+.block__text {
+   padding-top: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text__link {
+    color: blue;
+    text-decoration: dashed;
+}
+
